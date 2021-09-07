@@ -1,10 +1,16 @@
 import React from "react"
 
+// import Link for "/"
 import { Link } from "gatsby"
+
+// importation of Components
+import Footer from "../components/footer"
+import Header from "../components/header"
 
 const AboutPage = () => {
   return (
     <div>
+      <Header />
       <h1>About Me</h1>
       <h2>Bio</h2>
       <p>
@@ -16,6 +22,7 @@ const AboutPage = () => {
       <p>
         <Link to="/contact">Want to work with me? Reach out.</Link>
       </p>
+      <Footer />
     </div>
   )
 }
