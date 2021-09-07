@@ -1,5 +1,7 @@
 import React from "react"
 
+import { Link } from "gatsby"
+
 const AboutPage = () => {
   return (
     <div>
@@ -10,6 +12,9 @@ const AboutPage = () => {
         Area. With over 12-years of working experience as renewable energy
         engineer I love building stuff and making things that are efficient and
         user-friendly.
+      </p>
+      <p>
+        <Link to="/contact">Want to work with me? Reach out.</Link>
       </p>
     </div>
   )
